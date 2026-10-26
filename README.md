@@ -189,4 +189,13 @@ The project originated as an exploration of **Agentic Commerce / Merchant Observ
 
 The current product definition is documented in [`docs/PRD.md`](docs/PRD.md).
 
-Implementation architecture is intentionally not fixed yet. The next stage should turn the product requirements into a technical design and an executable first slice without prematurely building a generic commerce-agent framework.
+Implementation architecture is intentionally not fixed yet. As of 2026-10-26, this repository contains README and [PRD](docs/PRD.md), but no technical Wayfinder map, technical SPEC, implementation tickets or product runtime. When a WIP lane opens, the next step is a focused technical Wayfinder / specification for one actual first ecommerce slice, not a generic commerce-agent framework.
+
+## Development workflow and next handoff (2026-10-26)
+
+Use the installed Matt Pocock skills and this repository's GitHub issue-tracker conventions ([AGENTS.md](AGENTS.md), [issue-tracker configuration](docs/agents/issue-tracker.md)). The [PRD](docs/PRD.md) is the product source of truth. This project is not yet at the implementation frontier.
+
+- **Completed:** product discovery -> README and PRD. There is no implementation ticket to run.
+- **When prioritized:** start a targeted `/wayfinder` from README and PRD, using `grilling` and `domain-modeling` according to the installed skill workflow. Choose one concrete merchant domain/consumer and available evidence; footwear and outdoor are candidates, not an automatic selection. Continue with the standard `to-spec`, `to-tickets`, then `/implement` on the first unblocked ticket.
+- **Guardrail:** buyer-first recommendations, merchant-private evidence, minimum sufficient interaction and selective disclosure remain product constraints. Avoid a new generic commerce runtime, invented standards layer or standalone evaluation lab.
+- **WIP status:** parked at PRD until capacity and a meaningful first consumer exist.
